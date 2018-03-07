@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <script>
+	function square()
+	{
+		var num = document.getElementById("n1");
+		num.value = num.value * num.value;
+	}
+  </script>  
+</head>
+<body>
+  Number:
+  <Input type="text" id="n1"/>
+  <button onclick="square()"> x <sup>2</sup> </button>
+</body>
+</html>
